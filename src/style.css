@@ -1,1 +1,58 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: #070707;
+}
+
+#carta {
+  width: 350px;
+  height: 520px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 5% auto;
+  margin-top: 20px;
+}
+
+#UpperIcon {
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  color: red;
+  font-size: 100px;
+  width: 60px;
+  height: 100px;
+}
+#LowerIcon {
+  float: right;
+  position: relative;
+  right: 10px;
+  bottom: -15px;
+  color: red;
+  font-size: 100px;
+  width: 60px;
+  height: 100px;
+  transform: rotate(-180deg);
+}
+
+#n {
+  color: white;
+  font-size: 120px;
+  width: 120px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#newcardb {
+  margin: auto;
+  width: 300px;
+  text-align: center;
+}
+
+.boton {
+  width: 150px;
+  font-size: 22px;
+  border-radius: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 5px;
+  margin-bottom: 30px;
+}
